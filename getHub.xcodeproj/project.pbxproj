@@ -15,6 +15,7 @@
 		4EA324B91CD0AE0C00710F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA324B81CD0AE0C00710F73 /* Images.xcassets */; };
 		4EA324BC1CD0AE0C00710F73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA324BA1CD0AE0C00710F73 /* LaunchScreen.xib */; };
 		4EA324C81CD0AE0C00710F73 /* getHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA324C71CD0AE0C00710F73 /* getHubTests.m */; };
+		4EA324D31CD0AFE900710F73 /* 大师大师的ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA324D21CD0AFE900710F73 /* 大师大师的ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		4EA324C11CD0AE0C00710F73 /* getHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA324C61CD0AE0C00710F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA324C71CD0AE0C00710F73 /* getHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getHubTests.m; sourceTree = "<group>"; };
+		4EA324D11CD0AFE900710F73 /* 大师大师的ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "大师大师的ViewController.h"; sourceTree = "<group>"; };
+		4EA324D21CD0AFE900710F73 /* 大师大师的ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "大师大师的ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				4EA324BA1CD0AE0C00710F73 /* LaunchScreen.xib */,
 				4EA324AF1CD0AE0C00710F73 /* getHub.xcdatamodeld */,
 				4EA324A81CD0AE0C00710F73 /* Supporting Files */,
+				4EA324D11CD0AFE900710F73 /* 大师大师的ViewController.h */,
+				4EA324D21CD0AFE900710F73 /* 大师大师的ViewController.m */,
 			);
 			path = getHub;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA324D31CD0AFE900710F73 /* 大师大师的ViewController.m in Sources */,
 				4EA324B11CD0AE0C00710F73 /* getHub.xcdatamodeld in Sources */,
 				4EA324AE1CD0AE0C00710F73 /* AppDelegate.m in Sources */,
 				4EA324B41CD0AE0C00710F73 /* ViewController.m in Sources */,
@@ -416,6 +422,7 @@
 				4EA324CD1CD0AE0C00710F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EA324CE1CD0AE0C00710F73 /* Build configuration list for PBXNativeTarget "getHubTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				4EA324D01CD0AE0C00710F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
